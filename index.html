@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>hi I see you see me up here looking at you</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h3>To pass you must solve my riddles of...<br> er 3?, okay just pretend there are 3.</h3>
+    <hr  size = "3" noshade>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>What am I?<br>
+       I am changes both mental, and pysical<br>
+       I am the both the bane, and gift, for predtor and prey<br>
+       You cannot hide from me for I will always find you<br>
+       so hear me but do not fear me<br>
+       I play with evoltion day after MYA<br>
+       So now you, him, her, ponder what am I?<br>
+    </p>
+    <br>
+    <br>
+    <br>
+    <input id = "ans" type="text">
+    <button id="button" onclick="reply()">submit</button>
+    <br>
+    <br>
+</body>
+<script>
+    var ans = document.getElementById("ans");
+    var num = 0;
+function reply() {
+    if (ans.value == "adaptations")  {
+      document.write("congrats you survived the code is 8987"); 
+
+    }else{
+        num = num + 1;
+        document.write("attempt fail");
+    }
+}
+</script>
+</html>
